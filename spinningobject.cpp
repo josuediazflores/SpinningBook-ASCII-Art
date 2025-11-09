@@ -6,6 +6,7 @@
 #include <thread>
 #include <algorithm>
 
+//Testing my code
 struct Vec3 { float x,y,z; };
 static inline Vec3 add(const Vec3&a,const Vec3&b){return {a.x+b.x,a.y+b.y,a.z+b.z};}
 static inline Vec3 mul(const Vec3&a,float k){return {a.x*k,a.y*k,a.z*k};}
