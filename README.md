@@ -1,17 +1,17 @@
 # Spinning ASCII Book
 
-A simple C++ program that renders a rotating 3D ASCII book directly in the terminal.  
-This project uses basic math, z-buffering, and ASCII shading to simulate a 3D object.
+This is a simple C++ program that renders a rotating 3D ASCII “book” inside a terminal window.  
+It uses basic 3D math, projection, and ASCII shading to create the animation in real time.
 
-## ✅ Features
-- ASCII 3D rendering in the terminal
-- Real-time rotation animation
-- Simple lighting and shading
-- Runs in macOS, Linux, and Windows terminals that support ANSI escape codes
+Im going to use this code somewhere in my portfolio website because it looks cool lol 
+and it has cool math properties too
 
-## 🚀 How to Compile & Run
+## ✅ File Included
+- `spinningobject.cpp` — main source code
 
-### Using g++
+## ✅ How to Compile & Run
+
+### macOS / Linux
 ```bash
-g++ -std=c++17 -O2 book_spin.cpp -o book_spin
-./book_spin
+g++ -std=c++17 -O2 spinningobject.cpp -o spinningobject
+./spinningobject
